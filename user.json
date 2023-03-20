@@ -1,0 +1,18 @@
+{
+    "user":[
+        {
+            "id":1,
+            "name":"purwa",
+            "nominal":1000000,
+            "category":"food",
+            "date":"2023-04-23T18:25:43.511Z"
+        },
+        {
+            "id":2,
+            "name":"dhika",
+            "nominal":2000000,
+            "category":"furniture",
+            "date":"2023-02-13T18:25:43.511Z"
+        }
+    ]
+}
