@@ -20,6 +20,7 @@ router.post('/expense/details', authorization.authorize, createExpense.details);
 router.delete('/expense/details', authorization.authorize, deleteExpense.details);
 
 // - Get total expense by date range
+router.get('/expense/dates', authorization.authorize, showExpense.byDateRange);
 
 // - Get total expense by category
 router.get('/expense/categories', authorization.authorize, showExpense.byCategory);
