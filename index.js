@@ -13,3 +13,5 @@ app.use('/api',routes)
 app.listen(process.env.PORT, ()=>{
     console.log(`server running on port ${process.env.PORT}....`);
 });
+
+console.log(process.env.PORT);
