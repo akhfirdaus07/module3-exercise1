@@ -4,7 +4,7 @@ const authorization=require('./middleware/authorization');
 const userController=require('./controller/expense');
 
 // - Get expense list
-// router.get('/expense/list', authorization.authorize, userController.list);
+router.get('/expense/list', authorization.authorize, userController.list);
 
 // - Get expense details
 router.get('/expense/details', authorization.authorize, userController.details);
